@@ -1,6 +1,6 @@
 {
   "name": "@alansikora/cuid-cli",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "description": "Get a cuid (collision-resistant id)",
   "exports": "./cli.js",
   "type": "module",
@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/alansikora/cuid-cli#readme",
   "dependencies": {
+    "@alansikora/cuid-cli": "^0.5.2",
     "@paralleldrive/cuid2": "^2.2.2",
     "get-stdin": "^9.0.0",
     "meow": "^9.0.0"
