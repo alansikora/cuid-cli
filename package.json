@@ -1,6 +1,6 @@
 {
   "name": "@alansikora/cuid-cli",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "description": "Get a cuid (collision-resistant id)",
   "exports": "./cli.js",
   "type": "module",

@@ -8,11 +8,11 @@ const cli = meow(
   `$ cuid --help
 
   Usage
-    $ cuid [--length] [number]
-    $ echo [number] | cuid [--length]
+    $ cuid [--length X] [number]
+    $ echo [number] | cuid [--length X]
 
   Options
-    -s, --length Get length
+    -s, --length Set length
 
   Examples
     $ cuid
@@ -24,16 +24,16 @@ const cli = meow(
     ciyefyc650002x0y7e9826mhe
     ciyefyc650003x0y7az4v96ec
 
-    $ cuid --length
+    $ cuid --length 7
     1m0z7cm
 
-    $ cuid 4 --length
+    $ cuid 4 --length 7
     1m0z7cm
     1n1z7om
     1o2z7ud
     1o3z73h
 
-    $ echo '4' | cuid --length
+    $ echo '4' | cuid --length 7
     1m0z7cm
     1n1z7om
     1o2z7ud

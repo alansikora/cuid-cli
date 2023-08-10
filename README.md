@@ -22,11 +22,11 @@ $ npx @alansikora/cuid-cli
 $ cuid --help
 
   Usage
-    $ cuid [--slug] [number]
-    $ echo [number] | cuid [--slug]
+    $ cuid [--length X] [number]
+    $ echo [number] | cuid [--length X]
 
   Options
-    -s, --slug Get slug
+    -s, --length Set length
 
   Examples
     $ cuid
@@ -38,16 +38,16 @@ $ cuid --help
     ciyefyc650002x0y7e9826mhe
     ciyefyc650003x0y7az4v96ec
 
-    $ cuid --slug
+    $ cuid --length 7
     1m0z7cm
 
-    $ cuid 4 --slug
+    $ cuid 4 --length 7
     1m0z7cm
     1n1z7om
     1o2z7ud
     1o3z73h
 
-    $ echo '4' | cuid --slug
+    $ echo '4' | cuid --length 7
     1m0z7cm
     1n1z7om
     1o2z7ud
